@@ -1,0 +1,4 @@
+schematics i2c-xlate.sch
+output-name ../pcb/i2c-xlate
+skip-m4
+elements-dir ../../../footprints

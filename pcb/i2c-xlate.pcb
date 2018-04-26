@@ -1056,13 +1056,13 @@ Layer(3 "outline")
 )
 Layer(4 "silk")
 (
-	Text[75.00mil 235.00mil 3 100 "J1 - IN" "clearline,onsolder"]
-	Text[1160.00mil 40.00mil 1 100 "J2 - OUT" "clearline,onsolder"]
+	Text[1160.00mil 70.00mil 1 100 "SLAVE" "clearline,onsolder"]
 	Text[14.2119mm 79.69mil 2 100 "I2C-XLATE" "clearline,onsolder"]
 	Text[10.5289mm 144.69mil 2 100 "v1.0" "clearline,onsolder"]
 	Text[28.4469mm -0.94mil 2 100 "www.iascaled.com" "clearline,onsolder"]
 	Text[23.8639mm 59.69mil 2 100 "CC BY-SA" "clearline,onsolder"]
 	Text[9.8939mm 224.69mil 2 100 "(C)2018" "clearline,onsolder"]
+	Text[75.00mil 255.00mil 3 100 "MASTER" "clearline,onsolder"]
 )
 Layer(5 "silk")
 (

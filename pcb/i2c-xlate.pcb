@@ -9,7 +9,7 @@ Grid[500.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 5.00mil 6.00mil 8.00mil 13.00mil 7.00mil]
-Flags("showdrc,rubberband,nameonpcb,uniquename,clearnew")
+Flags("showdrc,rubberband,nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s:3")
 Styles["Signal,10.00mil,30.00mil,13.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -1012,8 +1012,6 @@ Layer(1 "top")
 	Line[650.00mil 120.00mil 650.00mil 160.00mil 10.00mil 20.00mil "clearline"]
 	Line[1180.00mil 250.00mil 1180.00mil 5.3100mm 10.00mil 20.00mil ""]
 	Line[1035.00mil 4.3100mm 1180.00mil 4.3100mm 20.00mil 20.00mil "clearline"]
-	Line[1180.00mil 135.00mil 1135.00mil 135.00mil 10.00mil 20.00mil "clearline"]
-	Line[1135.00mil 135.00mil 1130.00mil 140.00mil 10.00mil 20.00mil "clearline"]
 	Line[1130.00mil 140.00mil 1040.00mil 140.00mil 10.00mil 20.00mil "clearline"]
 	Line[1040.00mil 140.00mil 1035.00mil 135.00mil 10.00mil 20.00mil "clearline"]
 	Line[1040.00mil 140.00mil 26.2006mm 131.52mil 10.00mil 20.00mil "clearline"]
@@ -1030,6 +1028,8 @@ Layer(1 "top")
 	Line[26.2006mm 48.48mil 1055.00mil 25.00mil 10.00mil 20.00mil "clearline"]
 	Line[1055.00mil 25.00mil 1095.00mil 25.00mil 10.00mil 20.00mil "clearline"]
 	Line[1095.00mil 25.00mil 1160.00mil 90.00mil 10.00mil 20.00mil "clearline"]
+	Line[1130.00mil 140.00mil 28.9480mm 3.3100mm 10.00mil 20.00mil "clearline"]
+	Line[28.9480mm 3.3100mm 1180.00mil 3.3100mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[460.00mil 95.00mil] [240.00mil 95.00mil] [240.00mil 155.00mil] [460.00mil 155.00mil] 

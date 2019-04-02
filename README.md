@@ -24,7 +24,7 @@ are within the operating area of the LTC4316.
 The LTC4316 modifies the address sent by the I2C master via a programmable
 XOR byte.  When an address is sent from the master (input) to the slave (output)
 of the I2C-XLATE, the 7-bit address is XORd with the XOR byte set up on the
-I2C-XLATE.  
+I2C-XLATE.
 
 This allows a single I2C bus to have multiple I2C peripherals that
 would normally have conflicting addresses. The output of the translation 
@@ -32,15 +32,16 @@ can be a single device or multiple devices, but the XOR operation will be
 applied to all addresses sent through.
 
 Example:
-
+|-------------------------|-----------------|
 |:Device 7-bit address    | 0101 101 (0x2D) |
-|:LTC 4316 XOR mask       | 0110 000 (0x30) |          
+|:LTC 4316 XOR mask       | 0110 000 (0x30) |
 |:New address (to master) | 0011 101 (0x1D) |
 
 While the LTC4316 supports lots of various XOR masks, the I2C-XLATE provides
 only eight permutations ('-' = open, 'X' = solder jumpered):
 
 | JP3 | JP2 | JP1 | XOR Mask |
+|-----|-----|-----|----------|
 |  -  |  -  |  -  | 0000 001 |
 |  -  |  -  |  1  | 0000 000 |
 |  -  |  1  |  -  | 0010 001 |

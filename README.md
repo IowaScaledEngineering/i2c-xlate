@@ -34,9 +34,9 @@ applied to all addresses sent through.
 
 |Example:                 | Address/Mask Bits |
 |-------------------------|-------------------|
-|:Device 7-bit address    |  0101 101 (0x2D)  |
-|:LTC 4316 XOR mask       |  0110 000 (0x30)  |
-|:New address (to master) |  0011 101 (0x1D)  |
+|Device 7-bit address     |  0101 101 (0x2D)  |
+|LTC4316 XOR mask         |  0110 000 (0x30)  |
+|New address (to master)  |  0011 101 (0x1D)  |
 
 While the LTC4316 supports lots of various XOR masks, the I2C-XLATE provides
 only eight permutations ('-' = open, 'X' = solder jumpered):
